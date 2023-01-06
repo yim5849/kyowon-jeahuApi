@@ -22,8 +22,8 @@
 > * 비용, 잔여좌석 등 실시간으로 변동되는 데이터를 갱신하기 위한 목적
 
 <div>
-   <img src="https://user-images.githubusercontent.com/87461392/211048678-ae99383c-c99e-49fb-80fa-209c87b27679.PNG"  width="420" height="700"/>
-   <img src="https://user-images.githubusercontent.com/87461392/211048826-e41660ad-b9d2-45c9-942c-8bba41629ae4.PNG"  width="420" height="700"/>
+   <img src="https://user-images.githubusercontent.com/87461392/211048678-ae99383c-c99e-49fb-80fa-209c87b27679.PNG"  width="400" height="700"/>
+   <img src="https://user-images.githubusercontent.com/87461392/211048826-e41660ad-b9d2-45c9-942c-8bba41629ae4.PNG"  width="400" height="700"/>
 </div>
 <br/>
 
