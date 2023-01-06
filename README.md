@@ -1,78 +1,46 @@
-# 교원투어 여행이지 제휴서비스 API
-> 간략한 프로젝트 소개 문구를 작성합니다.
+# 😎 교원투어 > 제휴서비스 API
+> 교원투어에는 "여행이지" 라는 여행상품을 판매하는 자체 B2C사이트가 존재하지만 매출향상의 목적으로 다른 채널(제휴사)과의 계약을 통해 교원투어의 여행상품을 노출하고 판매하기 위한
+제휴사 - 교원투어간의 행사 노출, 행사정보 갱신 및 예약 연동 API 프로젝트입니다.
+#### ☑️ 제휴사 : 11번가,G마켓,위메프,네이버패키지 등 
 
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
+## 💻TOOL
+> SPRING,ORACLE
 
-한 두 문단으로 프로젝트 소개 글을 작성합니다.
+## ✨INFO
+🌱 상품(행사) List API
+> * 제휴사에 노출할 행사 리스트 정보를 전송하는 API
+> * 해당 제휴처에 판매 가능한 행사 데이터를 전송하기 위한 목적
 
-![](../header.png)
+<div>
+   <img src="https://user-images.githubusercontent.com/87461392/211046385-714a3631-9973-4f4a-b4d6-9c0b2f245835.PNG"  width="420" height="700"/>
+   <img src="https://user-images.githubusercontent.com/87461392/211057723-03e31318-1b55-467b-b31d-0b7ebd8f3a4a.PNG"  width="420" height="700"/>
+</div>
+<br/>
 
-## 설치 방법
+🌱 행사정보갱신 API
+> * 각 제휴처에서 고객이 상품을 클릭하여 상세페이지에 진입하였을때 실시간 호출을 통해 해당 행사의 상세 데이터를 응답하는 API <br/>
+> * 비용, 잔여좌석 등 실시간으로 변동되는 데이터를 갱신하기 위한 목적
 
-OS X & 리눅스:
+<div>
+   <img src="https://user-images.githubusercontent.com/87461392/211048678-ae99383c-c99e-49fb-80fa-209c87b27679.PNG"  width="420" height="700"/>
+   <img src="https://user-images.githubusercontent.com/87461392/211048826-e41660ad-b9d2-45c9-942c-8bba41629ae4.PNG"  width="420" height="700"/>
+</div>
+<br/>
 
-```sh
-npm install my-crazy-module --save
-```
+🌱 예약연동 API
+> * 각 제휴처에서 전송하는 교원투어 상품의 예약 정보를 수신하는 API
+> * 외부채널(제휴사)에서의 예약 데이터를 내부에서 관리하기 위한 목적
 
-윈도우:
+## 👯Copyright
+* API 예시 사진 - 출처 : 트립스토어 [[이동하기](https://www.tripstore.kr/)]
 
-```sh
-edit autoexec.bat
-```
+## 😄TAKEAWAYS
 
-## 사용 예제
+1. (DB)-JOIN과 SUBQUERY 및 함수를 사용하는 방법 및 INDEX의 중요성
+2. XML / JSON 자료구조에 대한 이해
+3. DATA-PARSING에 대한 이해 
+4. REST-API호출을 위한 SPRING RestTemplate 사용법
+5. Spring Batch의 개념 및 구조에 대한 이해
+6. HTTP(S)통신 및 통신을 위한 방화벽 관련 지식
+7. 로직의 모듈화 및 EXCEPTION 공통화의 중요성
 
-스크린 샷과 코드 예제를 통해 사용 방법을 자세히 설명합니다.
-
-_더 많은 예제와 사용법은 [Wiki][wiki]를 참고하세요._
-
-## 개발 환경 설정
-
-모든 개발 의존성 설치 방법과 자동 테스트 슈트 실행 방법을 운영체제 별로 작성합니다.
-
-```sh
-make install
-npm test
-```
-
-## 업데이트 내역
-
-* 0.2.1
-    * 수정: 문서 업데이트 (모듈 코드 동일)
-* 0.2.0
-    * 수정: `setDefaultXYZ()` 메서드 제거
-    * 추가: `init()` 메서드 추가
-* 0.1.1
-    * 버그 수정: `baz()` 메서드 호출 시 부팅되지 않는 현상 (@컨트리뷰터 감사합니다!)
-* 0.1.0
-    * 첫 출시
-    * 수정: `foo()` 메서드 네이밍을 `bar()`로 수정
-* 0.0.1
-    * 작업 진행 중
-
-## 정보
-
-이름 – [@트위터 주소](https://twitter.com/dbader_org) – 이메일주소@example.com
-
-XYZ 라이센스를 준수하며 ``LICENSE``에서 자세한 정보를 확인할 수 있습니다.
-
-[https://github.com/yourname/github-link](https://github.com/dbader/)
-
-## 배운점
-
-1. (<https://github.com/yourname/yourproject/fork>)을 포크합니다.
-2. (`git checkout -b feature/fooBar`) 명령어로 새 브랜치를 만드세요.
-3. (`git commit -am 'Add some fooBar'`) 명령어로 커밋하세요.
-4. (`git push origin feature/fooBar`) 명령어로 브랜치에 푸시하세요. 
-5. 풀리퀘스트를 보내주세요.
-
-<!-- Markdown link & img dfn's -->
-[npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/datadog-metrics
-[npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
-[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
-[wiki]: https://github.com/yourname/yourproject/wiki
