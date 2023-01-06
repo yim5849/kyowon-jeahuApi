@@ -12,8 +12,8 @@
 > * 해당 제휴처에 판매 가능한 행사 데이터를 전송하기 위한 목적
 
 <div>
-   <img src="https://user-images.githubusercontent.com/87461392/211046385-714a3631-9973-4f4a-b4d6-9c0b2f245835.PNG"  width="420" height="700"/>
-   <img src="https://user-images.githubusercontent.com/87461392/211057723-03e31318-1b55-467b-b31d-0b7ebd8f3a4a.PNG"  width="420" height="700"/>
+   <img src="https://user-images.githubusercontent.com/87461392/211046385-714a3631-9973-4f4a-b4d6-9c0b2f245835.PNG"  width="400" height="700"/>
+   <img src="https://user-images.githubusercontent.com/87461392/211057723-03e31318-1b55-467b-b31d-0b7ebd8f3a4a.PNG"  width="400" height="700"/>
 </div>
 <br/>
 
