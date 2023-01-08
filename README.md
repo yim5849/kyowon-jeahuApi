@@ -30,7 +30,6 @@
 🌱 예약연동 API
 > * 각 제휴처에서 전송하는 교원투어 상품의 예약 정보를 수신하는 API
 > * 외부채널(제휴사)에서의 예약 데이터를 내부에서 예약처리 및 관리하기 위한 목적
-<img src="https://user-images.githubusercontent.com/87461392/211065288-fb6d0159-46bf-4fb3-aa16-b03e424e13b2.PNG"  width="800" height="400"/>
 
 
 ## 👯Copyright
